@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MaCLo — 이용약관</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Noto+Sans+KR:wght@300;400;500&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  :root {
+    --bg: #f7f5f2;
+    --accent: #1a1a1a;
+    --text: #1a1a1a;
+    --text-muted: #8c7b6b;
+    --surface: #fff;
+    --border: #e8e4df;
+  }
+  body {
+    font-family: 'Noto Sans KR', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    font-weight: 300;
+    line-height: 1.8;
+    font-size: 14px;
+  }
+  .container {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 60px 24px 80px;
+  }
+  .header {
+    margin-bottom: 48px;
+    padding-bottom: 32px;
+    border-bottom: 1px solid var(--border);
+  }
+  .logo {
+    font-family: 'Space Mono', monospace;
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: var(--accent);
+  }
+  .page-title {
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 16px;
+    color: var(--text);
+  }
+  .effective-date {
+    font-family: 'Space Mono', monospace;
+    font-size: 11px;
+    color: var(--text-muted);
+    letter-spacing: 1px;
+    margin-top: 8px;
+  }
+  .section { margin-bottom: 40px; }
+  .section-number {
+    font-family: 'Space Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 2px;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    margin-bottom: 6px;
+  }
+  .section-title {
+    font-size: 17px;
+    font-weight: 400;
+    color: var(--accent);
+    margin-bottom: 12px;
+  }
+  .section p { color: #4a4a4a; margin-bottom: 10px; }
+  .info-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 20px;
+    margin: 16px 0;
+  }
+  .info-card-title {
+    font-family: 'Space Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    margin-bottom: 10px;
+  }
+  .info-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 8px 0;
+    border-bottom: 1px solid var(--border);
+  }
+  .info-row:last-child { border-bottom: none; padding-bottom: 0; }
+  .info-label { font-weight: 400; color: var(--text); min-width: 120px; font-size: 13px; }
+  .info-value { color: #4a4a4a; text-align: right; font-size: 13px; }
+  .highlight-box {
+    background: var(--accent);
+    color: var(--bg);
+    border-radius: 14px;
+    padding: 20px 24px;
+    margin: 16px 0;
+    font-size: 13px;
+    line-height: 1.7;
+  }
+  .highlight-box strong { font-weight: 400; color: #fff; }
+  .notice-box {
+    background: #fff8f0;
+    border: 1px solid #f0d9b5;
+    border-radius: 14px;
+    padding: 20px 24px;
+    margin: 16px 0;
+    font-size: 13px;
+    line-height: 1.7;
+    color: #5a4a3a;
+  }
+  .footer {
+    margin-top: 60px;
+    padding-top: 24px;
+    border-top: 1px solid var(--border);
+    text-align: center;
+  }
+  .footer-logo { font-family: 'Space Mono', monospace; font-size: 14px; letter-spacing: 2px; color: var(--text-muted); }
+  .footer-sub { font-size: 11px; color: #bbb; margin-top: 4px; }
+  @media (max-width: 480px) {
+    .container { padding: 40px 20px 60px; }
+    .info-row { flex-direction: column; gap: 2px; }
+    .info-value { text-align: left; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <div class="logo">MaCLo</div>
+    <h1 class="page-title">이용약관</h1>
+    <div class="effective-date">EFFECTIVE: 2026.03.19</div>
+  </div>
+
+  <div class="section">
+    <div class="section-number">Article 01</div>
+    <h2 class="section-title">목적</h2>
+    <p>본 약관은 MaCLo(이하 "앱")가 제공하는 서비스의 이용 조건 및 절차, 이용자와 앱 간의 권리·의무 및 책임사항을 규정함을 목적으로 합니다.</p>
+  </div>
+
+  <div class="section">
+    <div class="section-number">Article 02</div>
+    <h2 class="section-title">서비스 이용</h2>
+    <p>MaCLo는 디지털 옷장 관리, 날씨 기반 착장 추천, 소셜 커뮤니티 기능을 제공합니다.</p>
+    <div class="info-card">
+      <div class="info-card-title">주요 기능</div>
+      <div class="info-row"><span class="info-label">옷장 관리</span><span class="info-value">옷 이미지 등록, 분류, 착장 조합</span></div>
+      <div class="info-row"><span class="info-label">착장 추천</span><span class="info-value">현재 날씨 기반 스타일 제안</span></div>
+      <div class="info-row"><span class="info-label">소셜 기능</span><span class="info-value">게시물, 스토리, 팔로우, 채팅</span></div>
+      <div class="info-row"><span class="info-label">프리미엄 기능</span><span class="info-value">구독을 통한 추가 기능 이용</span></div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-number">Article 03</div>
+    <h2 class="section-title">계정</h2>
+    <p>서비스 이용을 위해 이메일 주소와 비밀번호로 계정을 생성해야 합니다. 이용자는 계정 정보를 안전하게 관리할 책임이 있으며, 타인에게 계정을 양도하거나 공유할 수 없습니다.</p>
+    <div class="notice-box">
+      계정 도용이나 무단 사용이 의심되는 경우 즉시 비밀번호를 변경하고 euvkz02@icloud.com으로 문의해 주세요.
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-number">Article 04</div>
+    <h2 class="section-title">구독 서비스</h2>
+    <p>MaCLo는 프리미엄 기능 이용을 위한 유료 구독 서비스를 제공합니다.</p>
+    <div class="info-card">
+      <div class="info-card-title">구독 안내</div>
+      <div class="info-row"><span class="info-label">구독 플랜</span><span class="info-value">월간 구독, 연간 구독</span></div>
+      <div class="info-row"><span class="info-label">결제</span><span class="info-value">Apple ID에 등록된 결제 수단으로 자동 청구</span></div>
+      <div class="info-row"><span class="info-label">자동 갱신</span><span class="info-value">구독 만료 24시간 전 자동 갱신</span></div>
+      <div class="info-row"><span class="info-label">해지</span><span class="info-value">iOS 설정 → Apple ID → 구독에서 언제든 해지 가능</span></div>
+      <div class="info-row"><span class="info-label">환불</span><span class="info-value">Apple의 환불 정책에 따릅니다</span></div>
+    </div>
+    <div class="notice-box">
+      구독을 해지하더라도 현재 결제된 구독 기간이 종료될 때까지 프리미엄 기능을 계속 이용할 수 있습니다.
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-number">Article 05</div>
+    <h2 class="section-title">콘텐츠 및 이용자 행동</h2>
+    <p>이용자는 서비스 내에서 아래 행위를 해서는 안 됩니다.</p>
+    <div class="highlight-box">
+      <strong>금지 행위</strong><br>
+      타인의 권리를 침해하는 콘텐츠 게시<br>
+      허위 정보 또는 스팸성 콘텐츠 유포<br>
+      타인에 대한 비방, 혐오 표현<br>
+      저작권 등 지식재산권 침해 콘텐츠 게시<br>
+      불법적인 목적의 서비스 이용<br>
+      서비스 운영을 방해하는 행위
+    </div>
+    <p>이용자가 게시한 콘텐츠의 책임은 이용자 본인에게 있습니다. 위반 시 사전 통보 없이 콘텐츠 삭제 및 계정 정지 조치가 취해질 수 있습니다.</p>
+  </div>
+
+  <div class="section">
+    <div class="section-number">Article 06</div>
+    <h2 class="section-title">지식재산권</h2>
+    <p>앱 내 모든 콘텐츠(로고, 디자인, 코드 등)의 지식재산권은 MaCLo에 귀속됩니다. 이용자가 직접 업로드한 콘텐츠의 저작권은 이용자에게 있으며, 서비스 제공을 위한 범위 내에서 이용을 허락하는 것으로 간주합니다.</p>
+  </div>
+
+  <div class="section">
+    <div class="section-number">Article 07</div>
+    <h2 class="section-title">서비스 변경 및 중단</h2>
+    <p>MaCLo는 서비스의 내용을 변경하거나 중단할 수 있으며, 이 경우 앱 내 공지 또는 이메일을 통해 사전 고지합니다. 단, 긴급한 경우 사전 고지 없이 변경 또는 중단될 수 있습니다.</p>
+  </div>
+
+  <div class="section">
+    <div class="section-number">Article 08</div>
+    <h2 class="section-title">책임의 한계</h2>
+    <p>MaCLo는 이용자 간의 분쟁, 이용자가 게시한 콘텐츠로 인한 손해, 서비스 장애로 인한 손해에 대해 법령이 정한 범위 내에서만 책임을 집니다. 천재지변, 불가항력적 사유로 인한 서비스 중단에 대해서는 책임을 지지 않습니다.</p>
+  </div>
+
+  <div class="section">
+    <div class="section-number">Article 09</div>
+    <h2 class="section-title">약관 변경</h2>
+    <p>본 약관이 변경되는 경우, 앱 내 공지 또는 이메일을 통해 사전 고지합니다. 변경된 약관은 고지 후 7일이 경과한 시점부터 효력이 발생합니다. 변경된 약관에 동의하지 않을 경우 서비스 이용을 중단하고 탈퇴할 수 있습니다.</p>
+  </div>
+
+  <div class="section">
+    <div class="section-number">Article 10</div>
+    <h2 class="section-title">문의</h2>
+    <p>이용약관 관련 문의는 아래 연락처로 보내주세요.</p>
+    <div class="info-card">
+      <div class="info-card-title">연락처</div>
+      <div class="info-row"><span class="info-label">이메일</span><span class="info-value">euvkz02@icloud.com</span></div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="footer-logo">MaCLo</div>
+    <div class="footer-sub">나만의 디지털 옷장</div>
+  </div>
+</div>
+</body>
+</html>
